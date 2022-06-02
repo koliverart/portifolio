@@ -121,30 +121,41 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   width: 70%;
+  margin: 20px;
+
 }
 
 #redes{
   display: flex;
+  margin-top: 30px;
+
 }
 
 .rede-reset{
   margin: 10px;
   padding: 5px;
-  border: 1px white solid;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
 
 .logo{
-  margin-right: 10px;
-  width: 35px;
-  height: 35px;
-  border: solid 1px white;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.text{
+  display: flex;
+  transition: 0.5s;
+  font-size: 0;
+}
 
 /* Animação */
 .font-glitch:hover{
