@@ -1,0 +1,82 @@
+/* Reset */
+h1,h2,h3,h4,h5,p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+h1{
+  margin-top: 20px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('images/wallpaper.png');
+}
+
+/* Reutilizaveis */
+#line{
+  background-color: white;
+  height: 1px;
+  width: 287px;
+}
+
+.btn-reset{
+  background: none;
+  color: white;
+  border: none;
+}
+
+/* Cabeçaralho */
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  border: solid 1px white;
+}
+
+/* Nav */
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-nav{
+  margin: 10px
+}
+
+/* Contato */
+#contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+#redes{
+  display: flex;
+}
+
+.rede-reset{
+  margin: 10px;
+  padding: 5px;
+  border: 1px white solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  border: solid 1px white;
+}
