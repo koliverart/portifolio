@@ -65,11 +65,11 @@ body{
 
 
 .text-nav{
-    font-family: 'Amatic SC', cursive;
+  font-size: 0.7rem;
 }
 
 .text-neon{
-  font-family: 'Smooch', cursive;
+  font-family: 'Great Vibes', cursive;
 }
 
 @keyframes flicker {
@@ -111,7 +111,6 @@ nav{
 
 .btn-nav{
   margin: 10px;
-  font-size: 1.2rem;
 }
 
 

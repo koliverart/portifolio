@@ -10,7 +10,7 @@ body{
   flex-direction: column;
   align-items: center;
   background-color: black;
-  /* background-image: url('images/wallpaper.png'); */
+  background-image: url('images/wallpaper2.png');
 }
 
 /* Reutilizaveis */
@@ -64,11 +64,11 @@ body{
 
 
 .text-nav{
-    font-family: 'Amatic SC', cursive;
+  font-size: 0.7rem;
 }
 
 .text-neon{
-  font-family: 'Smooch', cursive;
+  font-family: 'Great Vibes', cursive;
 }
 
 @keyframes flicker {
@@ -110,7 +110,6 @@ nav{
 
 .btn-nav{
   margin: 10px;
-  font-size: 1.2rem;
 }
 
 /* Sobre */
@@ -120,6 +119,9 @@ nav{
   justify-content: flex-flex-start;
   width: 70%;
   margin-top: 20px;
+  /* background: black; */
+  /* padding: 50px; */
+  /* border-radius: 10px; */
 }
 
 #photo{
